@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('recursos/Fonts/DancingScript-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Charm';
+  src: url('recursos/Fonts/Charm-Regular.ttf') format('truetype');
+}
+
+
+/* -----------------------------------------------------------Fonts---------------------------------------------------------------- */
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  background-color: rgb(32, 32, 32);
+  padding-bottom: 3px;
+}
+
+.titulo {
+  display: grid;
+  place-items: center;
+  margin: auto;
+  margin-top: 15px;
+  width: 800px;
+  height: 260px;
+  background-color: rgb(34, 34, 34);
+  border-image: linear-gradient(to right,
+      rgb(0, 94, 173), rgb(178, 45, 34), rgb(178, 132, 0), rgb(0, 119, 52)) 1;
+  border-style: double;
+  padding-top: 15px;
+  margin-bottom: 25px;
+}
+
+
+p.txt{
+  font-size: 30px;
+  font-family: "Sans Serif";
+  color: green;
+  text-align: center;
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  place-items: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.drive,
+.photos,
+.chat,
+.docs,
+.sheets,
+.maps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 80px;
+  margin-top: 35px;
+}
+
+.drive img,
+.photos img,
+.chat img,
+.docs img,
+.sheets img,
+.maps img {
+  display: flex;
+  width: 100px;
+  min-width: 100px;
+  height: auto;
+  margin-bottom: -15px;
+
+}
+
+
+footer {
+  
+  
+  display: flex;
+  position: absolute;
+  font-size: 12px;
+  margin-bottom: 0;
+  bottom: 0;
+  width: 100%;
+  justify-content: left;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: grey;
+  
+}
